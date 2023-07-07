@@ -269,12 +269,16 @@ margin: 10px;
     text-align: center;
     line-height: 60px;
 }
-
-.fotoslinkcosmeticos{
-    width: 200px;
-    height: 200px;
-    margin: 35px;
+.imagencontenedor {
+    height: 300px;
 }
+.contenedor-imagen { 
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;  
+}
+
+
 
 .fotocrema{
     width: 1200px;
@@ -296,7 +300,7 @@ margin-top: 100px;
     flex-wrap: nowrap;
     overflow: scroll;
 }
-.elemento{
+.elemento {
     flex: 1 0 auto;
     margin: 0 50px;
     background-color: #CD6155;

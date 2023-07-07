@@ -8,36 +8,53 @@
     <link rel="stylesheet" href="/mi-repositorio/css/style.css">
     <link rel="shortcut icon" href="/mi-repositorio/img/Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 <body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <header>    
-      <div id="logo" class="header">        
-        <img src="/mi-repositorio/img/Logo.png" alt="">          
-     
-        <div>
-            <nav>          
-                <ul class="menu">          
-                    <li><a href="/mi-repositorio/pages/maquillajes.html" target="_blank">Maquillaje</a></li>
-                    <li><a href="/mi-repositorio/pages/cosmeticos.html" target="_blank">Cosmeticos</a></li>                
-                    <li><a href="/mi-repositorio/pages/productos.html" target="_blank">Productos de mercado libre</a></li>
-                    <li><a href="/mi-repositorio/pages/tutoriales.html" target="_blank">Tutoriales</a></li>
-                    <li><a href="#">Mi calendario</a></li> <!--proximaentrega-->
-                    <li><a href="/mi-repositorio/index.html">home</a></li>
-                </ul>
-            </nav>
+      <nav class="navbar navbar-expand-lg bg-custom">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img id="logo" class="header" src="/mi-repositorio/img/Logo.png" alt="logo" width="150px"> 
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    
+                       
+           
+              
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="/mi-repositorio/index.html">home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/mi-repositorio/pages/cosmeticos.html">Cosmeticos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/mi-repositorio/pages/tutoriales.html">tutoriales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/mi-repositorio/pages/maquillajes.html">maquillaje</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="/mi-repositorio/pages/productos.html">productos</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
         </div>
-        <div class="buscar">
-                <input type="text" class="buscar_texto" placeholder="buscar">
-        </div>  
-    </div>                 
-        <section class="from-register">
-            <input class="controls" type="email" name="correo" id="correo" placeholder="ingrese su correo">
-            <input class="controls" type="password" name="correo" id="password" placeholder="ingrese contraseña">
-            <input class="boton" type="submit" value="inciar" >             
-            
-            
+      </nav>
+</div>
 
-        </section>
+</div>                 
+
          </header>
          <main>
             <div class="cuadrotexto">
@@ -52,33 +69,38 @@
             <div>
             <h1 class="destacados">Productos cosmeticos destacados:</h1>
             </div>
-         <section>
-          <a href="#">
-            <img class="fotoslinkcosmeticos" src="/mi-repositorio/img/ampollasacidohialuronico.png" alt="">
-          </a>
-          <a href="#">
-            <img class="fotoslinkcosmeticos" src="/mi-repositorio/img/aceitederosamosqueta.png" alt="">
-          </a>
-          <a href="">
-            <img class="fotoslinkcosmeticos" src="/mi-repositorio/img/aguamicelar.png" alt="">
-          </a>
-          <a href="">
-            <img class="fotoslinkcosmeticos" src="/mi-repositorio/img/cremasfaciales.png" alt="">
-          </a>
-         </section>
-         <section>
-            <a href="#">
-            <img class="fotoslinkcosmeticos" src="/mi-repositorio/img/exfoliantescorporales.png" alt="">
-          </a>
-          <a href="#">
-            <img class="fotoslinkcosmeticos" src="/mi-repositorio/img/cremascoporales.png" alt="">
-          </a>
-          <a href="">
-            <img class="fotoslinkcosmeticos" src="/mi-repositorio/img/shampoosolido.png" alt="">
-          </a>
-          <a href="">
-            <img class="fotoslinkcosmeticos" src="/mi-repositorio/img/productoscosmeticosnaturales.png" alt="">
-          </a>
+            <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="/mi-repositorio/img/ampollasacidohialuronico.png" class="d-block w-100"  alt="..." height="500px">
+                </div>
+                <div class="carousel-item">
+                  <img src="/mi-repositorio/img/aceitederosamosqueta.png" class="d-block w-100" alt="..." height="500px">
+                </div>
+                <div class="carousel-item">
+                  <img src="/mi-repositorio/img/aguamicelar.png" class="d-block w-100" alt="..." height="500px">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+         
+         
+         <section class="contenedor-imagen" >            
+            <img class="imagencontenedor" src="/mi-repositorio/img/exfoliantescorporales.png" alt="">         
+         
+            <img  class="imagencontenedor" src="/mi-repositorio/img/cremascoporales.png" alt="">         
+          
+            <img class="imagencontenedor" src="/mi-repositorio/img/shampoosolido.png" alt="">
+          
+            <img class="imagencontenedor" src="/mi-repositorio/img/productoscosmeticosnaturales.png" alt="">
+          
 
          </section>
          <div>
