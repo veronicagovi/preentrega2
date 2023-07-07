@@ -1,0 +1,322 @@
+body{
+margin: 0;
+padding: 0;
+background-color: whitesmoke;
+background-position: center;
+background-size: cover;
+font-family: "Dosis"  
+}
+
+
+.header{
+display: flex;
+height: 190px;
+}
+
+
+
+#logo img { 
+    width: 150px;
+    height: 150px;
+    display: flex;
+    padding: 20px; 
+    border-radius: 500px;
+}
+
+.menu {
+list-style: none;
+padding: 20px;
+display: flex;
+width: 100%;
+top: 29px;
+right: 60px;
+justify-content: center;
+
+}
+.menu li a{
+text-decoration: none;
+color: #CD6155;
+padding: 20px;
+display:block
+}
+.menu li{
+display:inline-block;
+text-align: center;    
+}
+
+.menu li a:hover{
+    background:  #F9E79F  ;
+
+}
+@media screen and (max-width: 700px){
+    .menu {
+        flex-direction: column;
+    }
+    
+ }
+ 
+    
+ 
+
+.buscar{
+    display: flex;
+    justify-content: right;
+    position: absolute;
+    left: 72%;
+    top: -2%;
+    padding: 65px;
+    height: 26px;
+    border-radius: 40px;
+}
+.from-register {
+    width: 400px;
+    left: 64%;
+    top: 20% ;
+    position: absolute;   
+    padding: 30px;    
+    margin-top: -23px;
+}
+.subtitulo{
+    display: flex;      
+    margin: 30px ;
+    padding: 25px;
+    width: 100%;
+    
+    
+    
+
+}
+.descubre { 
+  font-size: 50px;
+  text-align: center; 
+  margin: 0 ;
+  padding: 70px;
+  background-image: url(/mi-repositorio/img/fondobrillo.png);
+  background-size: cover; 
+  background-position: center;
+  
+}
+
+.descripcion {
+  font-size: 20px;
+  color: aliceblue;
+  text-align: left;
+  background-color: rgba(0,0, 0, 0.7);
+  display: flex ;
+
+
+  
+
+}
+.imagencentro{
+    
+  border-radius: 70px;
+  width: 200px;
+  height: 200px;
+margin: 10px;
+}
+.ojos{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
+}
+.maquillajess {
+    width: 300px;
+    height:300px ;
+    margin: 40px;
+}
+.nails {
+    width: 300px;
+    height:300px ;
+    margin: 40px;
+}
+.cremas {
+    width: 300px;
+    height: 300px ;
+    margin: 40px;
+}
+.textocremas{
+    width: 200px;
+    height: 90px;
+    background-color: whitesmoke;
+    border: 1px;
+    padding: 25px;
+    text-align: center;
+    margin: 80px;
+    display: inline-block;
+}
+.textocosmeticos{
+    width: 140px;
+    height: 90px;
+    background-color: whitesmoke;
+    border: 1px;
+    padding: 30px;
+    text-align: center;
+    margin: 80px;
+    display: inline-block;
+}
+.textonails{
+    width: 140px;
+    height: 90px;
+    background-color: whitesmoke;
+    border: 1px;
+    padding: 30px;
+    text-align: center;
+    margin: 80px;
+    display: inline-block;
+   ;
+}
+.textoimagen{
+    
+    margin-top: -100px;
+   
+}
+.textomaqui{
+    font-size: 40px;
+    text-align: center;
+    background-color: #F9EBEA ;  
+
+}
+.cuadrotexto{
+    margin-top: 60px;
+}
+.rimel{
+    width: 400px;
+    height: 400px;
+}
+.nivea{
+    width: 400px;
+    height: 400px;
+}
+.protectorsolar{
+    width: 400px;
+    height: 400px;
+
+}
+.polvo{
+    width: 400px;
+    height: 400px;
+}
+.bases{
+    width: 400px;
+    height: 400px;
+}
+.contornos{
+    width: 400px;
+    height: 400px;
+}
+.rimeltex{
+    text-size-adjust: 200px;
+    text-align: center;
+    background-color: azure;
+}
+.textonivea{
+    text-size-adjust: 200px;
+    text-align: center;
+    background-color: azure;
+}
+.textoprotector{
+    text-size-adjust: 200px;
+    text-align: center;
+    background-color: azure;
+}
+.textopolvo{
+    text-size-adjust: 200px;
+    text-align: center;
+    background-color: azure;
+}
+.textobases{
+    text-size-adjust: 200px;
+    text-align: center;
+    background-color: azure;
+}
+.textocontornos{
+    text-size-adjust: 200px;
+    text-align: center;
+    background-color: azure;
+}
+.copy{
+    position: absolute;      
+      left: 30%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+}
+.redes{
+    position: absolute;      
+      left: 60%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      min-width: 700px;
+      justify-content: space-around;
+}
+.redes a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #922B21;
+    color: white;
+    border-radius: 50%;
+    transition: all 4s ease-in-out;  
+}
+.textocosme{
+    font-size: 20px;
+    text-align: center;
+    background-color: #F9EBEA ;  
+    
+}
+.destacados{
+    text-align: center;
+    line-height: 60px;
+}
+
+.fotoslinkcosmeticos{
+    width: 200px;
+    height: 200px;
+    margin: 35px;
+}
+
+.fotocrema{
+    width: 1200px;
+    height: 500px;
+ margin-top: 80px;
+ border-radius: 50%; 
+}
+.imgdestacados{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+#foto {
+margin-top: 100px;    
+    
+}
+.carrusel{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+}
+.elemento{
+    flex: 1 0 auto;
+    margin: 0 50px;
+    background-color: #CD6155;
+    width: 500px;
+    height: 500px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+aside{
+    flex: 30%;
+    height: 400px;
+    background-color: #922B21;
+}
+.inf{
+    flex: 75%;
+    height: 400px;
+    background-color: aqua;
+}
