@@ -10,12 +10,12 @@ font-family: "Dosis"
 
 .header{
 display: flex;
-height: 190px;
+height: 150px;
 }
 
 
 
-#logo img { 
+#logo  { 
     width: 150px;
     height: 150px;
     display: flex;
@@ -48,12 +48,9 @@ text-align: center;
     background:  #F9E79F  ;
 
 }
-@media screen and (max-width: 700px){
-    .menu {
-        flex-direction: column;
-    }
+
     
- }
+ 
  
     
  
@@ -72,7 +69,7 @@ text-align: center;
     width: 400px;
     left: 64%;
     top: 20% ;
-    position: absolute;   
+     
     padding: 30px;    
     margin-top: -23px;
 }
@@ -91,9 +88,9 @@ text-align: center;
   text-align: center; 
   margin: 0 ;
   padding: 70px;
-  background-image: url(/mi-repositorio/img/fondobrillo.png);
+  background-image: url(/mi-repositorio/img/fondobrillo.png) ;
   background-size: cover; 
-  background-position: center;
+  
   
 }
 
@@ -319,4 +316,7 @@ aside{
     flex: 75%;
     height: 400px;
     background-color: aqua;
+}
+nav.bg-custom{
+    background-color: white;
 }
